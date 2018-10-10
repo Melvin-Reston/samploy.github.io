@@ -1,0 +1,96 @@
+html{
+	height: 100%;
+}
+
+.home {
+	background:	url("pictures/background.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.overlay {
+	background-color: rgba(0,0,0, .3);
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar-custom{
+	background-color: rgba(0,0,0,0);
+}
+
+.nav-right{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	color: white;
+}
+
+.color-white{
+	color: white;
+}
+
+.hover:hover{
+	font-weight: bold;
+	color: white;
+}
+
+.logo:hover{
+	font-weight: bold;
+	color: white;
+}
+
+.logo {
+	font-weight: 100;
+	font-family: "barlow";
+	color: white;
+}
+
+.profile-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.name {
+	letter-spacing: 4px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18pt;
+}
+
+.btn-explore{
+	margin-top: 40px;
+	padding: 15px !important;
+	width: 250px;
+	border-radius: 50px !important;	
+	text-align: center;
+	border: none;
+	outline-color: white;
+}
+
+.btn-explore:hover{
+	background-color: #8e0000;
+	color: white;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-top: 20px;
+}
+
+.img-social{
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 0 10px;
+	transition: all 3s;
+  	transition-timing: ease-in-out; 
+  	cursor: pointer;
+}
+
+.img-social:hover{
+	transform: rotate(1080deg);
+}
