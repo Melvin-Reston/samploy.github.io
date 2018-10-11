@@ -94,3 +94,102 @@ html{
 .img-social:hover{
 	transform: rotate(1080deg);
 }
+
+.skills{
+	/*height: 100vh;*/
+}
+
+.animate:hover{
+	transform: scale(1.8);
+	margin-bottom: 40px;
+}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+}
+
+.margin-top-100{
+	margin-top: 100px;
+}
+
+.margin-top-10-percent{
+	margin-top: 10%;
+}
+
+.margin-bottom-10-percent{
+	margin-bottom: 10%;
+}
+
+.margin-bottom-5-percent{
+	margin-bottom: 5%;
+}
+
+.ps{
+	background: url(pictures/icons/ps.svg)center center no-repeat;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	transition: all 1s;
+}
+
+.css{
+	background: url(pictures/icons/css.svg)center center no-repeat;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	transition: all 1s;
+}
+
+.html{
+	background: url(pictures/icons/html.svg)center center no-repeat;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	transition: all 1s;
+}
+
+.btn-view-details{
+	width: 150px;
+	margin-top: 30px;
+	padding: 10px !important;
+	border-radius: 100px !important;
+	margin-bottom: 15px;
+}
+
+.btn-view-details:hover{
+	background-color: #8e0000;
+	color: white;
+}
+
+.Portfolio{
+	/*height: 100vh;*/
+}
+
+.margin-top-5-percent{
+	margin-top: 5%;
+}
+
+.img-1{
+	background: url(pictures/1.jpeg)center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 15px;
+}
+
+.img-2{
+	background: url(pictures/2.jpg)center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 15px;
+}
+
+.img-3{
+	background: url(pictures/3.jpg)center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 15px;
+}
