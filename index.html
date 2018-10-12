@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>		
 	<head>
-		<title>My first Website!</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Melvin Reston</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="icon" href="pictures/logo-icon.ico" type="image/gif" sizes="16x16">
+		<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+		
 	</head>
 	<body>
 		<div class="home">
 			<div class="overlay">
 				<div class="container">
-					<nav class="navbar navbar-expand-lg navbar-custom">
+					<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
 					  <a class="navbar-brand logo" href="#">MELVIN RESTON</a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
@@ -23,10 +28,10 @@
 						        <a class="nav-link color-white hover" href="#">Home <span class="sr-only">(current)</span></a>
 						      </li>
 						       <li class="nav-item">
-						        <a class="nav-link color-white hover" href="#">About</a>
+						        <a class="nav-link color-white hover" href="#skills">Skills</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link color-white hover" href="#">Portfolio</a>
+						        <a class="nav-link color-white hover" href="#portfolio">Portfolio</a>
 						      </li>
 						    </ul>
 					    </div>
@@ -44,68 +49,142 @@
 							<a href="#"><img src="pictures/icons/skype.png" class="img-social"></a>
 							<a href="#"><img src="pictures/icons/twitter.png" class="img-social"></a>
 						</div>
-
 					</div>
-					
 				</div>
 			</div>
 		</div>
-		<div class="skills">
-			<div class="container margin-bottom-10-percent">
+		<div class="skills" id="skills">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-12 margin-top-10-percent">
 						<div class="name text-uppercase">Skills</div>
-						<div class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-						<div class="row margin-top-100 ">
-							<div class="col-md-4 col-sm-12 text-center">
-								<div class="ps mx-auto animate"></div>
-								<button class="btn btn-view-details text-center">View Details</button>
-							</div>
-							<div class="col-md-4 col-sm-12 text-center">
-								<div class="html mx-auto animate"></div>
-								<button class="btn btn-view-details">View Details</button>
-							</div>
-							<div class="col-md-4 col-sm-12 text-center">
-								<div class="css mx-auto animate"></div>
-								<button class="btn btn-view-details">View Details</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="Portfolio">
-			<div class="container margin-bottom-5-percent">
-				<div class="row">
-					<div class="col-md-12 margin-top-10-percent">
-						<div class="name text-uppercase">Portfolio</div>
-						<div class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<div class="text-justify margin-top-50 description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 						<div class="row margin-top-100">
-							<div class="col-md-4 col-sm-12">
-								<div class="img-1"></div>
+							<div class="col-md-4 col-sm-12 text-center">
+								<div class="ps mx-auto animate"></div>
+								<button type="button" class="btn btn-view-details text-center">View Detail</button>
 							</div>
-							<div class="col-md-4 col-sm-12">
-								<div class="img-1"></div>
+							<div class="col-md-4 col-sm-12 text-center">
+								<div class="html mx-auto animate"></div>
+								<button type="button" class="btn btn-view-details">View Detail</button>
 							</div>
-							<div class="col-md-4 col-sm-12">
-								<div class="img-1"></div>
+							<div class="col-md-4 col-sm-12 text-center">
+								<div class="css mx-auto animate"></div>
+								<button type="button" class="btn btn-view-details">View Detail</button>
 							</div>
+
 						</div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
+		
+		<div class="container">
+			<div class="Portfolio" id="portfolio">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="name text-uppercase title">Portfolio</div>
+						<div class="text-justify description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+						<div class="row margin-top-50">
+							<div class="col-md-4 col-sm-12 img-container">
+								<img src="pictures/1.jpeg" class="image">
+								<div class="middle">
+								    <div class="text"><h3 class="text-uppercase">Tarpaulin Layouts</h3>
+								    	<span class="line1"></span>Previous Designs
+									</div>
+									<button class="btn-view-more text-uppercase" data-toggle="modal" data-target="#myModal">View More</button>
+							   	</div>
+							</div>
+							<div class="col-md-4 col-sm-12 img-container">
+								<img src="pictures/2.jpg" class="image">
+								<div class="middle">
+								    <div class="text"><h3 class="text-uppercase">Website Designs</h3>
+								    	<span class="line1"></span>Previous Designs
+									</div>
+									<button class="btn-view-more text-uppercase" data-toggle="modal" data-target="#myModal">View More</button>
+							   	</div>
+							</div>
+							<div class="col-md-4 col-sm-12 img-container">
+								<img src="pictures/3.jpg" class="image">
+								<div class="middle">
+								    <div class="text"><h3 class="text-uppercase">Book and Others</h3>
+								    	<span class="line1"></span>Previous Designs
+									</div>
+									<button class="btn-view-more text-uppercase" data-toggle="modal" data-target="#myModal">View More</button>
+							   	</div>
+							</div>
+							<div class="modal fade" id="myModal" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4 class="modal-title">Modal Header</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>Some text in the modal.</p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact">
+			<div class="map-container">
+				<div class="container flex-absolute">
+					<div class="contact-Us">
+						<div class="line1"></div>
+
+						<div class="get-in-touch text-uppercase">Get in Touch</div>
+						<div class="line2"></div>
+					
+						<form action="/action_page.php" style="max-width:500px;margin:auto">
+						  <div class="input-container">
+						    <i class="fa fa-user-tie icon"></i>
+						    <input class="input-field" type="text" class="form-control" required placeholder="Username" name="usrnm">
+						  </div>
+
+						  <div class="input-container">
+						    <i class="fa fa-envelope-open-text icon"></i>
+						    <input class="input-field" type="text" placeholder="Email" required name="email">
+						  </div>
+						  
+						  <div class="input-container">
+						    <i class="fa fa-comment-alt icon"></i>
+						    <textarea class="input-field" type="text" placeholder="Your Message..." rows="4" required name="psw"></textarea>
+						  </div>
+
+						</form>
+						<button class="fa fa-paper-plane btn-send"></button>
+					</div>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4566.936668465396!2d124.74010368374222!3d10.388762080180504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33076e58875a7071%3A0x47a634e43887aa76!2sJesus+Miracle+Crusade!5e0!3m2!1sen!2sph!4v1539261689247" scrolling="no" frameborder="0" style="border:0" allowfullscreen class="map-size">	
+				</iframe>
+			</div>
+		</div>
+
 		<script src="bootstrap/js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 
