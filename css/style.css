@@ -15,7 +15,9 @@ html{
 }
 
 .navbar-custom{
-	background-color: rgba(0,0,0,0);
+	margin-top: 10px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px 10%;
 }
 
 .nav-right{
@@ -99,7 +101,71 @@ html{
 	/*height: 100vh;*/
 }
 
+.images-page-custom{
+	padding: 50px;
+}
 
+.images-header{
+	margin-top: 50px;
+	padding: 50px;
+	border-bottom: 10px solid #8e0000;
+}
+
+.image-title{
+	font-family: "barlow";
+}
+
+
+.close{
+	justify-content: flex-end;
+}
+
+.img-tarp-1{
+	background: url("../pictures/1.jpeg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+
+.img-tarp-2{
+	background: url("../pictures/2.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+
+.img-tarp-3{
+	background: url("../pictures/3.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+
+.img-tarp-4{
+	background: url("../pictures/4.jpg") center center no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+.img-tarp-5{
+	background: url("../pictures/5.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+
+.img-tarp-6{
+	background: url("../pictures/6.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+.img-tarp-7{
+	background: url("../pictures/1.jpeg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
 .animate:hover{
 	transform: scale(1.8);
 	margin-bottom: 40px;
@@ -132,6 +198,7 @@ html{
 	width: 100px;
 	background-size: cover;
 	transition: all 1s;
+	cursor: pointer;
 }
 
 .css{
@@ -140,6 +207,7 @@ html{
 	width: 100px;
 	background-size: cover;
 	transition: all 1s;
+	cursor: pointer;
 }
 
 .html{
@@ -148,6 +216,7 @@ html{
 	width: 100px;
 	background-size: cover;
 	transition: all 1s;
+	cursor: pointer;
 }
 
 .btn-view-details{
@@ -379,3 +448,6 @@ html{
 }
 
 /* form ends */
+
+/* overlay effects */
+
