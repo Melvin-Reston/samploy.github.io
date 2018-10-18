@@ -8,6 +8,12 @@ html{
 	height: 100vh;
 }
 
+.banner{
+	background:	url("../pictures/banner.jpg")center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
 .overlay {
 	background-color: rgba(0,0,0, .3);
 	background-size: cover;
@@ -53,6 +59,27 @@ html{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.fa-star{
+	font-size: 20px;
+}
+
+.ps-hover:hover .checked{
+	color: orange;
+}
+
+.icon-hover:hover .animate{
+	transform: scale(1.8);
+	margin-bottom: 40px;
+}
+
+.html-hover:hover .checked{
+	color: orange;
+}
+
+.css-hover:hover .checked{
+	color: orange;
 }
 
 .name {
@@ -121,10 +148,16 @@ html{
 }
 
 .img-tarp-1{
-	background: url("../pictures/1.jpeg") center center no-repeat;
+	/*background: url("../pictures/1.jpeg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
-	width: 100%;
+	width: 100%;*/
+	margin: 0;
+	padding: 0;
+}
+
+.padding-0{
+	padding: 0;
 }
 
 .img-tarp-2{
@@ -166,6 +199,7 @@ html{
 	height: 250px;
 	width: 100%;
 }
+
 .animate:hover{
 	transform: scale(1.8);
 	margin-bottom: 40px;
@@ -360,6 +394,42 @@ html{
 
 .flex-absolute{
 	position: absolute;
+}
+
+.banner-content{
+	position: absolute;
+	left: 150px;
+	bottom: 150px;
+}
+
+.line-banner{
+	background-color: white;
+	height: 10px;
+	width: 250px;
+}
+
+.fa-home:hover{
+	color: orange;
+}
+
+.text-first{
+	font-family: "barlow";
+	font-size: 30px;
+	color: white;
+}
+
+.my-Name{
+	font-family: "barlow";
+	font-size: 60px;
+	color: white;
+	transition: all 1s;
+}
+
+.animate-name:hover{
+	transform: scale(1);
+	margin-bottom: 40px;
+	cursor: pointer;
+	color: #8e0000;
 }
 
 .line1{
