@@ -4,6 +4,7 @@ html{
 
 .home {
 	background:	url("../pictures/background.jpg");
+	background-position: center;
 	background-size: cover;
 	height: 100vh;
 }
@@ -15,7 +16,7 @@ html{
 }
 
 .overlay {
-	background-color: rgba(0,0,0, .3);
+	background-color: rgba(0,0,0, .5);
 	background-size: cover;
 	height: 100vh;
 }
@@ -147,57 +148,174 @@ html{
 	justify-content: flex-end;
 }
 
-.img-tarp-1{
-	/*background: url("../pictures/1.jpeg") center center no-repeat;
+.img-web-1{
+	background: url("../pictures/portfolio/website/Chikaan-1.jpg") top center no-repeat;
 	background-size: cover;
-	height: 250px;
-	width: 100%;*/
-	margin: 0;
-	padding: 0;
+	height: 100%;
+	width: 100%;
+	border: 1px solid grey;
 }
 
 .padding-0{
 	padding: 0;
 }
 
-.img-tarp-2{
-	background: url("../pictures/2.jpg") center center no-repeat;
+.padding-5{
+	padding: 5px;
+}
+
+.img-web-2{
+	background: url("../pictures/portfolio/website/CreativeDevLabs-1.jpg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
 	width: 100%;
+	border: 1px solid grey;
 }
 
-.img-tarp-3{
-	background: url("../pictures/3.jpg") center center no-repeat;
+.img-web-3{
+	background: url("../pictures/portfolio/website/Gabisan-1.jpg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
 	width: 100%;
+	border: 1px solid grey;
 }
 
-.img-tarp-4{
-	background: url("../pictures/4.jpg") center center no-repeat;
+.img-web-4{
+	background: url("../pictures/portfolio/website/leopards-1.jpg") left center no-repeat;
 	background-size: cover;
 	height: 500px;
 	width: 100%;
+	border: 1px solid grey;
 }
-.img-tarp-5{
-	background: url("../pictures/5.jpg") center center no-repeat;
+.img-web-5{
+	background: url("../pictures/portfolio/website/Lyra-1.jpg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
 	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-web-6{
+	background: url("../pictures/portfolio/website/Pentor-1.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+.img-web-7{
+	background: url("../pictures/portfolio/website/Villa-la-Cocina-1.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-books-1{
+	background: url("../pictures/portfolio/Books/Candidate Awards.jpg") top center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-books-2{
+	background: url("../pictures/portfolio/Books/Certificate of recognition.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-books-3{
+	background: url("../pictures/portfolio/Books/Cover.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-books-4{
+	background: url("../pictures/portfolio/Books/Cover-2.jpg") left center no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	border: 1px solid grey;
+}
+.img-books-5{
+	background: url("../pictures/portfolio/Books/Judges Litmus.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-books-6{
+	background: url("../pictures/portfolio/Books/pre-service-orientation.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+.img-books-7{
+	background: url("../pictures/portfolio/Books/Program Cover Long.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-tarp-1{
+	background: url("../pictures/portfolio/tarp/Chikaan.jpg") top center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-tarp-2{
+	background: url("../pictures/portfolio/tarp/clean and order.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-tarp-3{
+	background: url("../pictures/portfolio/tarp/Help Clean.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.img-tarp-4{
+	background: url("../pictures/portfolio/tarp/Lyra.jpg") left center no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	border: 1px solid grey;
+}
+.img-tarp-5{
+	background: url("../pictures/portfolio/tarp/Pentor.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	border: 1px solid grey;
 }
 
 .img-tarp-6{
-	background: url("../pictures/6.jpg") center center no-repeat;
+	background: url("../pictures/portfolio/tarp/Villaflors.jpg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
 	width: 100%;
+	border: 1px solid grey;
 }
 .img-tarp-7{
-	background: url("../pictures/1.jpeg") center center no-repeat;
+	background: url("../pictures/portfolio/tarp/Villa-la-Cocina.jpg") center center no-repeat;
 	background-size: cover;
 	height: 250px;
 	width: 100%;
+	border: 1px solid grey;
 }
 
 .animate:hover{
@@ -423,6 +541,16 @@ html{
 	font-size: 60px;
 	color: white;
 	transition: all 1s;
+	font-weight: bold;
+	
+}
+
+.hover-images:hover{
+	opacity: .8;
+}
+
+.cursor-zoom-in{
+	cursor: zoom-in;
 }
 
 .animate-name:hover{
@@ -507,6 +635,14 @@ html{
    color: white;
 }
 
+.info{
+	padding: 50px;
+}
+
+.margin-auto{
+	margin: auto;
+}
+
 @media (max-width: 900px) and (min-width: 300px)
 {
 	.contact-Us{
@@ -519,5 +655,4 @@ html{
 
 /* form ends */
 
-/* overlay effects */
 
